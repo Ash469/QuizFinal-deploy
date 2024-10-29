@@ -23,7 +23,7 @@ const SignupPage = () => {
       return;
     }
 
-    const apiUrl = 'http://localhost:5000/signup'; 
+    const apiUrl = `${process.env.REACT_APP_API_URL}/signup`; 
 
     try {
       const response = await fetch(apiUrl, {

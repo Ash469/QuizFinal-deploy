@@ -13,7 +13,7 @@ const navigate = useNavigate();
   const handleLogin = async (event) => {
     event.preventDefault();
 
-    const apiUrl = 'http://localhost:5000/login';
+    const apiUrl = `${process.env.REACT_APP_API_URL}/login`;
 
     try {
       const response = await fetch(apiUrl, {

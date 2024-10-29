@@ -10,7 +10,7 @@ const LeaderboardPage = () => {
     useEffect(() => {
         const fetchLeaderboard = async () => {
             try {
-                const response = await axios.get('http://localhost:5000/leaderboard');
+                const response = await axios.get(`${process.env.REACT_APP_API_URL}/leaderboard`);
                 // Assuming the response.data is an array of leaderboard entries
                 setLeaderboard(response.data.slice(0, 5)); // Limit to top 5 entries
             } catch (error) {
