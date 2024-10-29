@@ -55,6 +55,7 @@ const SignupPage = () => {
 
   return (
     <div className="signup-page">
+      <div className='container'>
       <h2>Create a New Account</h2>
 
       <form onSubmit={handleSignup}>
@@ -100,6 +101,7 @@ const SignupPage = () => {
       <p>
         Already have an account?  <Link to="/">Login Here</Link>
       </p>
+    </div>
     </div>
   );
 };

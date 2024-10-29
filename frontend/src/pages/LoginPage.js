@@ -45,6 +45,7 @@ const navigate = useNavigate();
 
   return (
     <div className="login-page">
+    <div className='container'>
       <h2>Login to Your Account</h2>
 
       <form onSubmit={handleLogin}>
@@ -72,6 +73,7 @@ const navigate = useNavigate();
       <p>
         New user? <Link to="/signup">Create an account</Link>
       </p>
+    </div>
     </div>
   );
 };

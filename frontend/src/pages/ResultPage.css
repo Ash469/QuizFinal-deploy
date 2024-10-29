@@ -1,3 +1,6 @@
+body {
+  background:linear-gradient(to right, #43cea2, #185a9d);
+}
 .result-page {
     display: flex;
     flex-direction: column;
@@ -8,6 +11,7 @@
     border-radius: 12px;
     background: #f9f9f9;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+     background: linear-gradient(to left, rgba(0, 0, 0, 0.1), #94abc4);
     font-family: Arial, sans-serif;
   }
   
