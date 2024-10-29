@@ -5,6 +5,7 @@ const loginRoute = require('./routes/login');
 const signupRoute = require('./routes/signup');
 const leaderboardRoutes = require('./routes/leaderboard');
 const mongoose = require('mongoose');
+const URL = process.env.MONGODB_URL;
 require('dotenv').config();
 
 const app = express();
@@ -13,8 +14,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // Connect to MongoDB
-const mongoURI = 'mongodb://localhost:27017/Quiz';
-mongoose.connect(mongoURI, {
+mongoose.connect(URL, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
