@@ -15,11 +15,9 @@ npm start
 👤 **Ayush Ranjan**
 
 * Github: [@Ash469](https://github.com/Ash469)
-* LinkedIn: [@Ayush Ranjan](https://linkedin.com/in/Ayush Ranjan)
+* LinkedIn: [@Ayush Ranjan]((https://www.linkedin.com/in/ayush-ranjan-9928192a9/))
 
 ## Show your support
 
 Give a ⭐️ if this project helped you!
 
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
